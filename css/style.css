@@ -1,0 +1,69 @@
+/*CSS STYLES */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    font-size: 1em;;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  .wrap {
+    
+   width: 100%;
+}
+#header{
+   display: flex;
+   background-color: #5baeed;
+   width: 100%;
+   margin: 0 auto;
+}
+#headerImg{
+    background: url('../images/header.png');
+    height: 281px;
+    width: 54%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #5baeed;
+    padding: 30px; ;
+}
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+  footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+
+  
+  @media only screen and (max-width: 48rem) {
+    #header {
+      flex-direction: column;
+       width: 90%;
+       
+    }
+    #headerImg {
+         width: auto;
+         
+      }
+  }
+  
