@@ -26,7 +26,6 @@
         var now = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
         now = (Date.parse(now) / 1000);
         var timeLeft = endTime - now;
-        console.log(endTime, timeLeft)
         if (timeLeft < 0 ){
             // $("#timer").html("<span class='banner-heading'>EXPIRED</span>");
             clearInterval();
