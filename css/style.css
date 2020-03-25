@@ -46,10 +46,9 @@ p {
 }
   footer {
     position: absolute;
-    bottom: 10px;
     right: 10px;
     font-size: 12px;
-    color: #aaa;
+    color: #ccc;
 }
 
 .hide {
