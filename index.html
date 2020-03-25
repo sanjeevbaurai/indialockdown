@@ -13,6 +13,7 @@
    <script type="text/javascript" src="js/jquery.min.js"></script>
    <link rel="stylesheet" href="css/style.css" type="text/css"> 
    <script type="text/javascript" src="js/main.js" async></script>
+   <script type="text/javascript" src="js/counter.js" async></script>
 </head>
 
 <body>
@@ -22,17 +23,567 @@
        <div class="wrap">
          <div class="center">
             <p class="text-center">India lockdown for 21 days starts from 25th March, 2020</p>
-            <p class="text-center">You can go back to normal in :</p>
+            <p class="text-center">You can go back to normal in:</p>
             <h1 class="text-center"><span id="days"></span> days <span id="hours"></span> hours <span id="minutes"></span> minutes <span id="seconds"></span> seconds</h1>
             <div class="breaker"></div>
             
-         <p class="text-center">Stay Home, Stay Safe !</p>
+         <p class="text-center">Stay at home, Stay safe!</p>
             <br>
             <br>
-            <p class="text-center">I made this page to help those of us who need to feel like the end is in sight.<br><br>I hope it's helpful!</p>
+            <p class="text-center">I made this to help those who feel like the end is in sight.<br><br>I hope it's helpful!</p>
          </div>
       </div>
    </div>
+   <div class="container hide">
+   <div class="days">
+      <div>Days</div>
+      <ul class="flip day-tens">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+      <ul class="flip day-ones">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+   </div>
+   <div class="hours">
+     <div>Hours</div>
+     <div class="flip-hours">
+      <ul class="flip hour-tens">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+      <ul class="flip hour-ones">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+   </div>
+   </div>
+   
+     <div>Minutes</div>
+      <ul class="flip min-tens">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+      <ul class="flip min-ones">
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">0</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">0</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">1</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">1</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">2</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">2</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">3</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">3</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">4</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">4</div>
+                 </div>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                 <div class="up">
+                     <div class="num">5</div>
+                 </div>
+                 <div class="down">
+                     <div class="num">5</div>
+                 </div>
+             </a>
+         </li>
+     </ul>
+     
+     <div>Seconds</div>
+      <ul class="flip tens">
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">0</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">0</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">1</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">1</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">2</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">2</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">3</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">3</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">4</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">4</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">5</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">5</div>
+                  </div>
+              </a>
+          </li>
+      </ul>
+      <ul class="flip ones">
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">0</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">0</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">1</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">1</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">2</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">2</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">3</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">3</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">4</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">4</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">5</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">5</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">6</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">6</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">7</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">7</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">8</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">8</div>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="up">
+                      <div class="num">9</div>
+                  </div>
+                  <div class="down">
+                      <div class="num">9</div>
+                  </div>
+              </a>
+          </li>
+      </ul>
+  </div>
 
 	
 
