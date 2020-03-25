@@ -20,10 +20,10 @@
 
     function makeTimer(setDate) {
         var isSetDate = setDate;	
-        var endTime = new Date(isSetDate);			
+        var endTime = new Date(isSetDate);		
         endTime = (Date.parse(endTime) / 1000);
-
-        var now = new Date();
+        console.log(endTime)
+        var now = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
         now = (Date.parse(now) / 1000);
         var timeLeft = endTime - now;
         console.log(endTime, timeLeft)
