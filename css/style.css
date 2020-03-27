@@ -21,7 +21,6 @@ p {
     margin-inline-end: 0px;
 }
   .wrap {
-    
    width: 100%;
 }
 .img{
@@ -39,6 +38,7 @@ img {
 }
 .img-producity  img{
     border-radius: 4px;
+    width: 100%;
 }
 .creativity{
     font-size: 2em;
