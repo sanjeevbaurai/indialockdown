@@ -27,14 +27,18 @@ p {
 .img{
     width: 50%;
     margin:0 auto;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
+    border: solid 1px #ccc;
+    border-radius: 4px;
 }
 img {
     border-radius: 50%;
     width: 75%;
     height: 75%;
+}
+.img-producity  img{
+    border-radius: 4px;
 }
 .creativity{
     font-size: 2em;
