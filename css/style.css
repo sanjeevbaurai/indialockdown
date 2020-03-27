@@ -24,6 +24,24 @@ p {
     
    width: 100%;
 }
+.img{
+    width: 50%;
+    margin:0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+img {
+    border-radius: 50%;
+    width: 75%;
+}
+.creativity{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    color: #5514b4;
+    margin:0 auto;
+}
 #header{
    display: flex;
    background-color: #5baeed;
@@ -70,6 +88,12 @@ p {
          width: auto;
          
       }
+      .img{
+      width: 90%;
+      }
+      img {
+        width: 100%;
+    }
   }
   
   a {
