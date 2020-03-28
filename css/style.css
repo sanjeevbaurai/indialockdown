@@ -97,6 +97,9 @@ img {
         border-radius: 0;
         padding:0;
 }
+.timer {
+  font-size:  2.5em;
+}
   
   @media only screen and (max-width: 48rem) {
     #header {
@@ -118,6 +121,13 @@ img {
       .productivity {
         width: 100%;
       }
+      #days, #hours, #minutes, #seconds {
+        font-size: 1.25em;
+        padding: 10%;
+    }
+    .creativity{
+        align-items: flex-start;;
+    }
   }
   
   a {
