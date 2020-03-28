@@ -78,6 +78,11 @@ img {
     color: #ccc;
 }
 
+.infoLink{
+   display: flex;
+   justify-content: center;
+   font-size: 1.25em;
+}
 .hide {
   display: none;
 }
