@@ -55,12 +55,15 @@ img {
     display: flex;flex-direction: column;align-items: center; width: 50%;
 }
 #header{
+   display: flex;
    background-color: #5baeed;
+   width: 100%;
+   margin: 0 auto;
 }
 #headerImg{
     background: url('../images/header.png');
     height: 281px;
-    width: 100%;
+    width: 54%;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #5baeed;
@@ -90,12 +93,6 @@ img {
 #days, #hours, #minutes, #seconds {
     color: yellow;
     font-size: 1.25em;
-}
-.hitwebcounter{ 
-        width: 200px;
-        height: 30px;
-        border-radius: 0;
-        padding:0;
 }
   
   @media only screen and (max-width: 48rem) {
