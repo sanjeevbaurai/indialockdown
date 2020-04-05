@@ -7,11 +7,13 @@
    <title>India lockdown for 21 days</title>
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="description" content="">
-   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   
    <link rel="stylesheet" href="css/style.css" type="text/css"> 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <script type="text/javascript" src="js/main.js" async></script>
    <script type="text/javascript" src="js/counter.js" async></script>
+   <script type="text/javascript" src="data/contactList.json"  async></script>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -55,26 +57,138 @@
    <br/>
    <div class="container">
    
-       <div class="wrap infoLink" style="display: flex; flex-direction: column;"> 
+    
+       <!-- <div class="wrap infoLink" style="display: flex; flex-direction: column;"> 
+       <p>This is a Delhi Govt website to help you with various needs like Ration, e Pass etc. <a href="https://epass.jantasamvad.org/epass/init/" target="_blank"> epass.Jantasamvad.org</a></p>
+        <p>If you are in Delhi and due to lockdown, you are facing any issue i.e. you don't have food, medicine or you want to go hospital, in that case you can directly call to your area's MLA, Depty CM or CM. Your problem will be shorted immediately. Your area's MLA, DyCM and CM's numbers are given below.</p>
+        <select id="contact_list">
+        </select>
         <p>Click&nbsp;<a href="https://www.covid19india.org" target="_blank"><b> here </b></a>&nbsp;For latest Covid 19 India results.</p>
          <p> Click&nbsp;<a href="http://covid19.kpolom.com/" target="_blank"><b> here </b></a>&nbsp;For Covid-19 Self Test.</p>
        </div>
-       
+        -->
        <br/>
-       <div class="wrap extraSpace" style="display: flex;"> 
-        
+       
+        <div class="productivity" style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
+            <div class="creativity">Coronavirus Tips</div>
+               <p> Everyone must stay at home to help stop coronavirus (COVID-19) spreading. Wash your hands with soap and water often to reduce the risk of infection.</p>
+               <p>To stop the spread of coronavirus, you should only leave the house for very limited purposes:</p>
+                <ul><li>
+                    shopping for basic necessities, for example food and medicine, which must be as infrequent as possible
+                </li>
+                <li>one form of exercise a day, for example a run, walk, or cycle – alone or with members of your household
+                </li>
+               
+                <li>any medical need, including to donate blood, avoid or escape risk of injury or harm, or to provide care or to help a vulnerable person</li>
+                <li>travelling for work purposes, but only where you cannot work from home</li></ul>
+                <p>These reasons are exceptions. Even when doing these activities, you should minimise time spent outside of the home and ensure you are 2 metres apart from anyone outside of your household.
+                    You should also:</p>
+                <ul>
+                <li>wash your hands with soap and water often – for at least 20 seconds</li>
+                <li> wash your hands as soon as you get home</li>
+                    <li> cover your mouth and nose with a tissue when you cough or sneeze</li>
+                        <li> put used tissues in the bin immediately and wash your hands</li>
+                            <li>not touch your face if your hands are not clean</li>    
+                </ul>
+         </div>
+ 
+    <div class="productivity" style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
+        <div class="creativity">Advice from GP Nurse in the UK </div>
+<p><b>To Avoid Covid-19</b></p>
+<p>What I have seen a lot of are recommendations for how to try to avoid getting coronavirus in the first place ,</p>
+<ul>
+<li> good hand washing </li>
+<li> personal hygiene </li>
+<li> social distancing </li>
+<p>-- but what I have NOT seen a lot of is advice for what happens if you actually get it, which many of us will. </p></ul>
+<p>So as your friendly neighborhood Nurse let me make some suggestions:</p>
+<p>
+<b>If you get Covid-19</b></p>
+<p>You basically just want to prepare as though you know you’re going to get a nasty respiratory bug, like bronchitis or pneumonia. You just have the foresight to know it might come your way!</p>
+
+<p><b>Things you should actually buy ahead of time </b>(not sure what the obsession with toilet paper is?):</p>
+<ul>
+<li> <b>Kleenex,</b></li>
+
+<li><b> Paracetamol,</b></li>
+
+<li> whatever your generic, mucus thinning <b>cough medicine</b> of choice is (check the label and make sure you're not doubling up on Paracetamol) </li>
+
+<li> <b>Honey and lemon </b>can work just as well!</li>
+
+<li><b> Vicks </b>vaporub for your chest is also a great suggestion.</li>
+
+<li> <b>a humidifier </b>would be a good thing to buy and use in your room when you go to bed overnight. (You can also just turn the shower on hot and sit in the bathroom breathing in the steam).</li>
+
+<li><b> If you have a history of asthma </b>and you have a prescription inhaler, make sure the one you have isn’t expired and refill it/get a new one if necessary.</li>
+
+<li> <b>Meals </b>This is also a good time to meal prep: make a big batch of your favorite soup to freeze and have on hand.</li>
+
+<li> <b>Hydrate (drink!) hydrate, hydrate!</b> Stock up on whatever  your favorite clear fluids are to drink - though tap water is fine you may appreciate some variety!</li>
+
+<li> <b>For symptom management </b>and a fever over 38°c, take Paracetamol rather than Ibuprofen.</li>
+
+<li> <b>Rest lots.</b> You should not be leaving your house!  Even if you are feeling better you may will still be infectious for fourteen days and older people and those with existing health conditions should be avoided!</li>
+
+<li> <b>Wear gloves and a mask </b>to avoid contaminating others in your house</li>
+
+<li> <b>Isolate </b>in your bedroom if not living alone, ask friends and family to leave supplies outside to avoid contact.</li>
+
+<li> <b>Sanitize</b> your bed linen and clothes frequently by washing and clean your bathroom with recommended sanitizers.</li>
+</ul>
+
+<p><b>You DO NOT NEED TO GO TO THE HOSPITAL unless</b> you are having trouble breathing or your fever is very high (over 39°C) and unmanaged with meds. </p>
+<p>90% of healthy adult cases thus far have been managed at home with basic rest/hydration/over-the-counter meds.</p>
+
+<p><b>If you are worried or in distress or feel your symptoms are getting worse </b></p>
+
+<p><b>Preexisting risks </b>If you have a pre-existing lung condition (COPD, emphysema, lung cancer) or are on immunosuppressants, now is a great time to talk to your Doctor or specialist about what they would like you to do if you get sick. </p>
+
+<p><b>Children-</b> One major relief to you parents is that kids do VERY well with coronavirus— they usually bounce back in a few days (but they will still be infectious), Just use pediatric dosing .</p>
+
+<p><b>Be calm and prepare rationally </b>and everything will be fine.</p>
+
+ <p>This is to inform us all that the pH for corona virus varies from 5.5 to 8.5.</p>
+
+<p>All we need to do, to beat corona virus, we need to take more of an alkaline foods that are above the above pH level of the Virus. </p>
+
+<p>Some of which are:</p>
+<ul>
+<li>
+<b>Lemon - 9.9pH </b></li>
+ <li><b>Lime - 8.2pH </b></li>
+ <li><b>Avocado - 15.6pH </b></li>
+ <li><b>Garlic - 13.2pH </b></li>
+ <li><b>Mango - 8.7pH </b></li>
+ <li><b>Tangerine - 8.5pH </b></li>
+ <li><b>Pineapple - 12.7pH </b></li>
+ <li><b>Dandelion - 22.7pH </b></li>
+ <li><b>Orange - 9.2pH </b></li>
+</ul>
+<p>How do you know you have coronavirus?</p>
+<ul class="Itching_throat"> <li><b>Itching in the throat, </b></li>
+    <li><b> Dry throat, </b></li>
+    <li><b> Dry cough. </b></li>
+    <li> High temperature </li>
+    <li>Shortness of breath</li>
+</ul>
+<p>So where you notice these things quickly take warm  water with lemon  and drink. </p> 
+
+<p>Do not keep this information to yourself only. Pass it to all your family and friends. God bless you.</p>
+    </div>
+    <div class="wrap extraSpace" style="display: flex;"> 
         <div class="productivity" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="creativity">What's app Chatbox Help Desk</div>
-            <div class="img img-producity">
-                <img src="./images/helpline_whatsapp.jpeg">
-            </div>
-       </div> 
+            <div class="creativity">What's app Chatbox Help Desk</div>
+                <div class="img img-producity">
+                    <img src="./images/helpline_whatsapp.jpeg">
+                </div>
+           </div> 
        <div class="productivity" style="display: flex; flex-direction: column;">
             <div class="creativity">Donate to PM cares</div>
             <div class="img img-producity"><img src="./images/donate-pmcare.png"></div>
         </div>
-       </div>
-       <div class="wrap extraSpace" style="display: flex;"> 
+    </div> 
+    <div class="wrap extraSpace" style="display: flex;"> 
         <div class="productivity" style="display: flex; flex-direction: column; align-items: center;">
             <div class="creativity">Productivity tips for work from home</div>
                 <div class=" img img-producity">

@@ -45,8 +45,20 @@
         $("#minutes").html(minutes);
         $("#seconds").html(seconds );	
 		$("#percent").html(percent );
-
+       // $("#contact_list").
+     //  var mydata = JSON.parse(contactList);
+       
+       //var mydata = JSON.parse(data);
+            //console.log(mydata[0].name);
+          //  console.log(mydata[0].number);
+            // $.getJSON("../data/sample.json", function (data) {
+            //     $.each(data, function (index, value) {
+            //        console.log(value);
+            //     });
+            // });
     }	
+    
+    
 
     if (document.readyState !== 'loading') {
         mainCDBanner();

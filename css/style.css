@@ -145,7 +145,12 @@ margin: 20px;
         align-items: flex-start;;
     }
   }
-  
+  dl, ol, ul {
+    list-style: disc;
+ }
+ ul.Itching_throat{
+    list-style: decimal;
+ }
   a {
     cursor: pointer;
     text-decoration: none;
@@ -185,9 +190,9 @@ a.brand-logo:hover{
 .light-blue-text.text-darken-4 {
     color: #01579b !important;
 }
-ul {
+/* ul {
     list-style: none
-}
+} */
 
 ul.flip {
     position: relative;
