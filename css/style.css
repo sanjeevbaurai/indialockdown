@@ -135,7 +135,7 @@ margin: 20px;
         width: 100%;
       }
       #days, #hours, #minutes, #seconds {
-        font-size: 1.25em;
+        font-size: 1.35em;
         padding: 10%;
     }
     .timer {
@@ -168,6 +168,7 @@ nav .brand-logo.center {
         height: 64px;
         line-height: 64px;
     }
+    
 }
 nav .nav-wrapper {
     position: relative;
