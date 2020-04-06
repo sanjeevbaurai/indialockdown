@@ -170,6 +170,9 @@ nav .brand-logo.center {
     left: 50%;
     transform: translateX(-50%);
 }
+ul.subList{
+list-style: circle;
+}
 @media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
         height: 64px;
