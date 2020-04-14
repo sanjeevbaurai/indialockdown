@@ -6,7 +6,7 @@
     function mainCDBanner() {
         var addAfter = $('.main-content .herobanner').first().closest('.aem-GridColumn');
         //var endTime = new Date("29 November 2019 12:00:00 GMT");
-        var setDate = '14 April 2020 23:59:00 UTC';
+        var setDate = '03 May 2020 23:59:00 UTC';
 
       
         //calling timerFunction
