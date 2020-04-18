@@ -241,10 +241,13 @@ a.brand-logo:hover{
   }
   
   .panel {
-    padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
+    margin: 1rem 15px 0;
+    border: solid #f7f7f9;
+    padding: 1rem;
+    width: 100%;
   }
   .symptoms{
     background: url(../images/key_symptoms.png);
