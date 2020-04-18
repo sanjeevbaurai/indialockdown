@@ -236,7 +236,7 @@ a.brand-logo:hover{
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .accordion:hover {
     background-color: #eee; 
   }
   
