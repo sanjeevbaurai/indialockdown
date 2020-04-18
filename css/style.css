@@ -224,6 +224,28 @@ a.brand-logo:hover{
 .light-blue-text.text-darken-4 {
     color: #01579b !important;
 }
+.accordion {
+    border-bottom: solid 1px #ccc;
+    /* box-shadow: -7px 16px 20px #ccc; */
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #eee; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 /* ul {
     list-style: none
 } */
