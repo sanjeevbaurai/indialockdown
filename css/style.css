@@ -87,7 +87,7 @@ margin: 20px;
    justify-content: center;
    font-size: 1.25em;
    border-radius: 5px;
-   padding: 10px;
+   padding: 10px 10px 0;
    box-shadow: -7px 16px 20px #ccc;
    background-color: #eee !important;
 }
@@ -177,6 +177,12 @@ nav .brand-logo.center {
 ul.subList{
 list-style: circle;
 }
+.top{
+    cursor: pointer;
+    color: rgb(51, 20, 187) !important;
+    margin:0 20px;
+}
+
 @media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
         height: 64px;

@@ -45,6 +45,7 @@
         $("#minutes").html(minutes);
         $("#seconds").html(seconds );	
 		$("#percent").html(percent );
+		
        // $("#contact_list").
      //  var mydata = JSON.parse(contactList);
        
@@ -58,6 +59,11 @@
             // });
     }	
     
+    $(".top").click(function(){
+       
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    });
     
 
     if (document.readyState !== 'loading') {
