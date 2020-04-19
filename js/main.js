@@ -5,6 +5,21 @@
 
     function mainCDBanner() {
         var addAfter = $('.main-content .herobanner').first().closest('.aem-GridColumn');
+        
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
         //var endTime = new Date("29 November 2019 12:00:00 GMT");
         var setDate = '03 May 2020 23:59:00 UTC';
 
@@ -66,20 +81,7 @@
     });
     
     
-    var acc = document.getElementsByClassName("accordion");
-    var i;
     
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
     if (document.readyState !== 'loading') {
         mainCDBanner();
     } else {
