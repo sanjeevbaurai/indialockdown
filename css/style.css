@@ -140,6 +140,7 @@ margin: 20px;
       }
       .img{
       width: 90%;
+      height: 278px !important;
       }
       
       .extraSpace{
@@ -237,14 +238,13 @@ a.brand-logo:hover{
   }
   
   .accordion:hover {
-    background-color: #eee; 
+    background-color: #f7f7f9; 
   }
   
   .panel {
     display: none;
     background-color: white;
     overflow: hidden;
-    margin: 1rem 15px 0;
     border: solid #f7f7f9;
     padding: 1rem;
     width: 100%;
