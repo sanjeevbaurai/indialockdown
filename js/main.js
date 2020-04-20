@@ -4,7 +4,6 @@
 
 
     function mainCDBanner() {
-        var addAfter = $('.main-content .herobanner').first().closest('.aem-GridColumn');
         
         var acc = document.getElementsByClassName("accordion");
         var i;
@@ -12,11 +11,13 @@
         for (i = 0; i < acc.length; i++) {
           acc[i].addEventListener("click", function() {
             this.classList.toggle("active");
+            this.parentElement.classList.toggle("borderStyle");
             var panel = this.nextElementSibling;
             if (panel.style.display === "block") {
               panel.style.display = "none";
             } else {
               panel.style.display = "block";
+             // this.parentElement.style.border= "solid #f7f7f9";
             }
           });
         }
@@ -37,7 +38,7 @@
         var isSetDate = setDate;	
         var endTime = new Date(isSetDate);		
         endTime = (Date.parse(endTime) / 1000);
-        console.log(endTime)
+       // console.log(endTime)
         var now = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
         now = (Date.parse(now) / 1000);
         var timeLeft = endTime - now;
@@ -54,7 +55,7 @@
         var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
         var totalDays=24;
         var percent =  (100*timeLeft/endTime).toFixed(7);
-        console.log(percent)
+        //console.log(percent)
         $("#days").html(days );
         $("#hours").html(hours);
         $("#minutes").html(minutes);

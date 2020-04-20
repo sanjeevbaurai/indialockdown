@@ -89,7 +89,7 @@ margin: 20px;
    border-radius: 5px;
    padding: 10px 10px 0;
    box-shadow: -7px 16px 20px #ccc;
-   background-color: #eee !important;
+   background-color: #f8f8f8 !important;
 }
 .hide {
   display: none;
@@ -183,6 +183,9 @@ list-style: circle;
     color: rgb(51, 20, 187) !important;
     margin:0 20px;
 }
+.borderStyle{
+  border:  solid #f7f7f9;
+}
 
 @media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
@@ -245,7 +248,7 @@ a.brand-logo:hover{
     display: none;
     background-color: white;
     overflow: hidden;
-    border: solid #f7f7f9;
+    border-top: solid #f7f7f9;
     padding: 1rem;
     width: 100%;
   }
