@@ -22,7 +22,7 @@
           });
         }
         //var endTime = new Date("29 November 2019 12:00:00 GMT");
-        var setDate = '17 May 2020 23:59:00 UTC';
+        var setDate = '31 May 2020 23:59:00 UTC';
 
       
         //calling timerFunction
